@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gavynzhang.myview.MainActivity">
+
+        <com.gavynzhang.myview.PieView
+            android:id="@+id/pie_view"
+            myview:pie_radius="100dp"
+            myview:text_size="40"
+            myview:inner_circle_radius="40dp"
+            myview:pie_chamfering_angle="3"
+            myview:stroke_width="3"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:paddingTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+</RelativeLayout>
